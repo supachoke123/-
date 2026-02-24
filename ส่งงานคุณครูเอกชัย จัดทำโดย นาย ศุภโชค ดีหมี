@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio นายศุภโชค ดีหมี</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.motto-box {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portfolio</h1>
+    <h2>นาย ศุภโชค ดีหมี (โอ๊ค)</h2>
+</header>
+
+<section>
+    <h2>👤 ประวัติส่วนตัว</h2>
+    <div class="profile">
+        <img src="https://via.placeholder.com/200" alt="profile">
+        <p>ชื่อ: นาย ศุภโชค ดีหมี</p>
+        <p>ชื่อเล่น: โอ๊ค</p>
+        <p>ส่วนสูง: 180 ซม.</p>
+        <p>น้ำหนัก: 93 กก.</p>
+    </div>
+</section>
+
+<section>
+    <h2>🏫 ประวัติการศึกษา</h2>
+    <p>โรงเรียนเมตตาวิทยา (อนุบาล1 - ป.2)</p>
+    <p>โรงเรียนบ้านดงขวาง (ป.3 - ม.3)</p>
+    <p>โรงเรียนหล่มสัก (ม.4 - ม.6)</p>
+</section>
+
+<section>
+    <h2>🎨 ผลงานที่ชอบ</h2>
+    <div class="gallery">
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/The_Starry_Night.jpg">
+            <p>The Starry Night - Vincent van Gogh</p>
+        </div>
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg">
+            <p>The Kiss - Gustav Klimt</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>💭 คติประจำใจ</h2>
+    <div class="motto-box">
+        “ขอให้ถือประโยชน์ส่วนตนเป็นที่สอง ประโยชน์ของเพื่อนมนุษย์เป็นกิจที่หนึ่ง”<br>
+        – สมเด็จพระมหิตลาธิเบศร อดุลยเดชวิกรม พระบรมราชชนก
+    </div>
+</section>
+
+<footer>
+    © 2026 Supachoke Deemee
+</footer>
+
+</body>
+</html>
